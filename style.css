@@ -1,0 +1,734 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    /* height: 100vh; */
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* HEADER CSS */
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 2px solid red; */
+    gap: 15rem;
+}
+
+.logoheader{
+    color: cadetblue;
+    font-size: 2rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    justify-self: right;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+a:hover{
+    color: cadetblue;
+}
+li{
+    list-style: none;
+}
+/* MAIN-CSS */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    gap: 13rem;
+    padding-top: 3rem;
+    position: relative;
+}
+.main-left{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 25rem;
+    gap: 1rem;
+    /* padding-top: 8rem;
+    padding-right: 10rem; */
+    /* margin-right: 24rem;
+    margin-top: 4rem; */
+    /* border: 2px solid red; */
+}
+.mainleftheading{
+    font-size: 2.5rem;
+}
+.mainleftheading::after{
+    content: ' Things';
+    color: cadetblue;
+}
+.ordernow{
+    padding: 2px 8px;
+    /* border: 2px solid rebeccapurple; */
+    border: none;
+    color: white;
+    background-color:cadetblue;
+    border-radius: 0.3rem;
+    transition: 1s;
+}
+.ordernow:hover{
+    color: darkgray;
+}
+.search{
+    padding: 2px 50px;
+}
+.folower{
+     display: flex;
+     gap: 2rem;
+}
+.f1{
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+}
+.f1 h1{
+    font-size: 1.5rem;
+}
+.main-right img{
+    width: 20rem;
+}
+.welcome-img {
+     /* border: 2px solid red; */
+    width: 9rem;
+    position: absolute;
+    left: -20%;
+    top: 50%;
+}
+.welcome-img img{
+   width: 8rem;
+}
+.woodenchair{
+    /* border: 2px solid red; */
+    width: 83rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    gap: 12rem;
+}
+.woodenleft{
+    /* border: 2px solid red; */
+    padding-left: 10rem;
+    width: 40rem;
+}
+.woodenleft img{
+    width: 30rem;
+}
+.woodenright{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    width: 60rem;
+    gap: 0.5rem;
+}
+.woodenright h1{
+    font-size: 2rem;
+}
+.woodenright p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.ruppes{
+    width: fit-content;
+}
+.woddenrightpara{
+    /* border: 2px solid red; */
+    width: 27rem;
+}
+.ruppes{
+    padding: 5px 5px;
+    color: white;
+    background-color:cadetblue;
+    border: none;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+}
+.ruppes:hover{
+    color: darkgray;
+}
+
+/* TABLE WOOD PANE */
+.tablewoodpane{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    gap: 19rem;
+}
+.left-table{
+    /* border: 2px solid red; */
+    margin-left: 10rem;
+    width: 20rem;
+}
+.left-table-para{
+    /* border: 2px solid red; */
+    width: 30rem;
+}
+.tableheader{
+    font-size: 2rem;
+}
+.tablepara{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.right-table img{
+    width: 32rem;
+}
+/* ARTS DECOR HOME */
+.artdecorhome{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25rem;
+    padding-top: 4rem;
+}
+.left-decor img{
+    width: 25rem;
+}
+.right-decor{
+    /* border: 2px solid red; */
+    gap: 1.5rem;
+}
+.rightdecorpara{
+    width: 30rem;
+}
+.decorheading{
+    font-size: 2rem;
+}
+/* BEST SELING */
+.sofaselling{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 2rem;
+}
+.sellingheader{
+    text-align: center;
+    font-size: 2rem;
+}
+.sellingtop{
+    display: flex;
+    gap: 5rem;
+}
+.sellingbottom{
+    display: flex;
+    gap: 7rem;
+}
+.sofa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sofa img{
+    width: 25rem;
+}
+.sofa1 img{
+    width: 22rem;
+}
+.sofa2 img{
+    width: 22rem;
+    height: 12rem;
+}
+.sofa3 img{
+    width: 20rem;
+    height: 8rem;
+}
+.sofa4 img{
+    width: 18rem;
+}
+
+/* FESTIVAL */
+.festival{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5rem;
+    gap: 10rem;
+}
+.left-festival{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    width: 25rem;
+}
+.right-festival img{
+    width: 30rem;
+}
+.leftfestipara{
+    /* border: 2px solid red; */
+    width: 20rem;
+}
+.Booknow{
+    width: fit-content;
+}
+.Booknow:hover{
+    color: darkgray;
+}
+.festheading{
+    font-size: 3rem;
+}
+.festheading::after{
+    content: ' Offer:s';
+    color: cadetblue;
+}
+.festheading1{
+    font-size: 3rem;
+}
+.Booknow{
+    background-color:cadetblue;
+    color: white;
+    border: none;
+    padding: 3px 5px;
+}
+
+/* BLOG CARD */
+.cards img{
+   width: 20rem;
+}
+.blog{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content:center;
+    padding-top: 3rem;
+    gap: 3.2rem;
+}
+.cards{
+    border: 2px solid rgba(0,0,0,0.4);
+    width: 20.2rem;
+}
+.card2 img{
+    /* height: 5.5rem; */
+    height: 10.5rem;
+}
+.blogs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Readmore{
+    /* border: 2px solid red; */
+    padding: 3px 3px;
+}
+/* FOTTER */
+.foot{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+.topfoot{
+    display: flex;
+}
+.email{
+    /* border: 2px solid red; */
+    padding: 0.2rem 13rem;
+}
+.Subsribe{
+    background-color:cadetblue;
+    color: white;
+    border: none;
+    padding: 0.2rem 0.5rem;
+}
+.Subsribe:hover{
+    color: darkgray;
+}
+.center-foot{
+    display: flex;
+    gap: 12rem;
+    padding-top: 2rem;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+}
+.link a{
+    font-size: 1rem;
+}
+.link p{
+    font-weight: 300;
+}
+
+/* MEDIA QUERY */
+/* MEDIA QUERY FOR LAPTOP 1024PX */
+@media only screen and (max-width:1024px) {
+    header{
+        /* border: 2px solid red; */
+        justify-content: flex-start;
+        gap: 6rem;
+        align-items: center;
+    }
+     .logoheader{
+        font-size: 1rem;
+    }
+    li a{
+        font-size: 1rem;
+    }
+    .icon img{
+        width: 2.5rem;
+    }
+    main{
+        gap: 5rem;
+        justify-content: space-around;
+        padding-top: 4rem;
+    }
+    .main-left{
+        /* border: 2px solid red; */
+        width: 15rem;
+    }
+    .mainleftheading{
+        font-size: 1.5rem;
+    }
+    .main-left-button{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .ordernow{
+        width: fit-content;
+    }
+    .main-right img{
+        width: 15rem;
+    }
+    .welcome-img img{
+        width: 7rem;
+        /* border: 2px solid red; */
+    }
+    .woodenchair{
+        gap: 2rem;
+        /* border: 2px solid red; */
+        width: 54rem;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+    .woodenleft{
+        padding-left: 0rem;
+    }
+    .woodenleft{
+        /* margin-left: 6rem; */
+        /* border: 2px solid red; */
+        width: 20rem;
+    }
+    .woodenleft img{
+        width: 20rem;
+    }
+    .woodenright{
+        /* border: 2px solid green; */
+        width: 15rem;
+        /* align-items: center; */
+    }
+    .woodenright p{
+        font-size: 0.7rem;
+    }
+    .woddenright h1{
+        font-size: 0.5rem;
+        color: red;
+    }
+    .woddenrightpara{
+        /* border: 2px solid red; */
+        width: 10rem;
+    }
+    .tablewoodpane{
+        gap: 0rem;
+    }
+    .right-table img{
+        width: 23rem;
+    }
+    .left-table-para{
+        /* border: 2px solid red; */
+        width: 18rem;
+        font-weight: 100;
+        font-size: 0.8rem;
+    }
+    .artdecorhome{
+        gap: 3rem;
+    }
+    .rightdecorpara{
+        width: 20rem;
+    }
+    .sofaselling{
+        /* border: 2px solid red; */
+        gap: 2rem;
+    }
+    .sellingtop{
+        /* border: 2px solid red; */
+        gap: 3rem;
+    }
+    .sellingbottom{
+        /* border: 2px solid red; */
+        gap: 5rem;
+    }
+    .festival{
+        /* border: 2px solid red; */
+        gap: 1.5rem;
+        justify-content: center;
+    }
+    .left-festival{
+        /* border: 2px solid red; */
+        width: 15rem;
+    }
+    .festheading1{
+        font-size: 1.5rem;
+    }
+    .festheading{
+        font-size: 1.5rem;
+    }
+    .leftfestipara{
+        /* border: 2px solid red; */
+        font-weight: 400;
+        font-size: 0.8rem;
+        width: 15rem;
+    }
+    .right-festival img{
+        width: 21rem;
+    }
+    .cards img{
+        width: 12.8rem;
+        /* border: 2px solid red; */
+    }
+    .blog{
+        /* border: 2px solid red; */
+        gap: 1rem;
+    }
+    .cards{
+        width: 13rem;
+        /* border: 2px solid red; */
+    }
+    .card2 img{
+        height: 6.7rem;
+    }
+    .center-foot{
+        gap:  3rem;
+    }
+}
+/* TABLET MEDIA QUERY */
+@media screen and (max-width:768px) {
+    body{
+        position: relative;
+    }
+    header{
+        /* border: 2px solid green; */
+        gap: 0.6rem;   
+        justify-content: center;
+        align-items: center;
+    }
+    .logoheader{
+        font-size: 1rem;
+    }
+    nav{
+        gap: 0.3rem;
+        justify-self: center;
+    }
+    li a{
+        font-size: 0.9rem;
+    }
+    .icon img{
+        width: 2rem;
+    }
+    main{
+       gap: 1rem;
+    }
+    .main-left{
+        width: 10rem;
+        /* border: 2px solid red; */
+        gap: 1rem;
+    }
+    .main-left h1{
+        font-size: 0.9rem;
+    }
+    .search{
+        padding:0.1px 0.1px;
+        /* width: fit-content; */
+    }
+    .folower{
+        gap: 0rem;
+        flex-direction: column;
+    }
+    .f1 h1{
+        font-size: 0.8rem;
+    }
+    .f1 p{
+        font-size: 0.5rem;
+    }
+    .main-right{
+        /* border: 2px solid red; */
+        width: 8rem;
+    }
+    .main-right img{
+        width: 8rem;
+        position: relative;
+    }
+    .welcome-img img{
+        position: absolute;
+        width: 5rem;
+    }
+    .welcome-img img{
+        width: 5rem;
+        /* top: 2%; */
+        /* left: -50%; */
+        left: -3%;
+    }
+    .woodenchair{
+        gap: 0.5rem;
+    }
+    .woodenleft{
+        width: 11rem;
+        /* border: 2px solid red; */
+    }
+    .woodenright{
+        /* border: 2px solid red; */
+        width: 9rem;
+    }
+    .woodenrightheading{
+        /* color: blue; */
+        font-size: 0.2rem;
+        font-weight: 600;
+    }
+    .woddenrightpara{
+        width: 7rem;
+    }
+    .woodenleft img{
+        width: 11rem;
+    }
+    .tablewoodpane{
+        gap: 0.4rem;
+    }
+    .left-table{
+        /* border: 2px solid red; */
+        width: 10rem;
+    }
+    .left-table h1{
+        font-size: 1.5rem;
+    }
+    .left-table-para{
+        /* border: 2px solid green; */
+        width: 10rem;
+    }
+    .right-table{
+        /* border: 2px solid red; */
+        width: 20rem;
+    }
+    .right-table img{
+        width: 13rem;
+    }
+    .artdecorhome{
+        /* border: 2px solid red; */
+        gap: 2.3rem;
+    }
+    .left-decor{
+        /* border: 2px solid red; */
+        width: 13rem;
+    }
+    .left-decor img{
+        width: 13rem;
+    }
+    .right-decor{
+        /* border: 2px solid green; */
+        width: 10rem;
+    }
+    .woodenrightheading{
+        font-size: 0.5rem;
+    }
+    .rightdecorpara{
+        width: 10rem;
+        font-size: 0.6rem;
+    }
+    .sofaselling{
+        gap: 0rem;
+        justify-content: center;
+    }
+    .sellingtop{
+        gap: 0.5rem;
+        /* border: 2px solid red; */
+    }
+    .sellingbottom{
+        gap: 0.5rem;
+        /* border: 2px solid green; */
+    }
+    .sofa img{
+        width: 10rem;
+    }
+    .sofa2 img{
+        height: 5rem;
+    }
+    .sofa h1{
+        font-size: 0.7rem;
+    }
+    /* FESTIVAL */
+    .festival{
+        justify-content: center;
+        gap: 0rem;
+    }
+    .left-festival{
+        /* border: 2px solid red; */
+        width: 10rem;
+    }
+    .leftfestipara{
+        width: 10rem;
+    }
+    .right-festival{
+        width: 10rem;
+    }
+    .right-festival img{
+        width: 10rem;
+    }
+    /* BLOG CARD */
+    .blog{
+        /* flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        gap: 0.5rem;
+    }
+    .cards{
+        width: 8rem;
+    }
+    .cards img{
+        width: 7.5rem;
+    }
+    .card2 img{
+        height: 4rem
+    };
+     /*  LINKES  */
+     .topfoot{
+        flex-direction: column;
+     }
+     .email{
+        padding: 0.1px 0.1px;
+        width: fit-content;
+     }
+     .Subsribe{
+        padding: 0.3px 0.9px;
+     }
+     .center-foot{
+        gap: 0.4rem;
+     }
+}
+@media only screen and (max-width:425px){
+   
+}
